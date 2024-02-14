@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image: url(./backgr1.avif);
+    background-image: url(./img/backgr1.avif);
     background-size: cover;
     position: relative;
 }
@@ -74,9 +74,14 @@
     font-size: 15rem;
     animation: heart 2s linear infinite;
 }
+.fa-heart{
+    color: red;
+    font-size: 15rem;
+    animation: heart 2s linear infinite;
+}
 
 .balon{
-    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    
     animation: balon  7s linear infinite;
     
     
@@ -101,6 +106,6 @@
         transform: translateY(0);
     }
     100%{
-        transform: translateY(-300px)
+        transform: translateY(-300px);
     }
 }
