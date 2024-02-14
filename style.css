@@ -1,0 +1,106 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(./backgr1.avif);
+    background-size: cover;
+    position: relative;
+}
+
+.balon1{
+    position: absolute;
+    font-size: 4rem;
+    top: 400px;
+    left: 250px;
+}
+.balon2{
+    position: absolute; 
+    font-size: 5rem;
+    top: 250px;
+    left: 100px;    
+}
+.balon3{
+    position: absolute; 
+    font-size: 3rem;
+    top: 100px;
+    left: 100px; 
+
+}
+.balon4{
+    position: absolute; 
+    font-size: 4rem;
+    top: 200px;
+    left: 350px;    
+}
+.balon5{
+    position: absolute; 
+    font-size: 5rem;
+    top: 100px;
+    left: 500px;    
+}
+.balon6{
+    position: absolute; 
+    font-size: 3rem;
+    top: 160px;
+    left: 700px;    
+}
+.balon7{
+    position: absolute; 
+    font-size: 6rem;
+    top: 160px;
+    right: 100px;    
+}
+.balon8{
+    position: absolute; 
+    font-size: 3rem;
+    top: 200px;
+    right: 300px;    
+}
+.balon9{
+    position: absolute; 
+    font-size: 4rem;
+    top: 300px;
+    right: 500px;    
+}
+.balon10{
+    position: absolute; 
+    font-size: 5rem;
+    top: 100px;
+    right: 450px;    
+}
+
+.heart{
+    font-size: 15rem;
+    animation: heart 2s linear infinite;
+}
+
+.balon{
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: balon  7s linear infinite;
+    
+    
+}
+@keyframes heart {
+    0%{
+        transform: scale(1);
+    }
+    25%{
+        transform: scale(.9);
+    }
+    50%{
+        transform: scale(.8);
+    }
+    100%{
+        transform: scale(1)
+    }
+}
+
+@keyframes balon {
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-300px)
+    }
+}
